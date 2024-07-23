@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.7.0](https://github.com/ublue-os/bazzite/compare/v3.6.0...v3.7.0) (2024-07-23)
+
+
+### Features
+
+* Add a default Lutris config (Fixes issues with controllers under game mode) ([dceaf18](https://github.com/ublue-os/bazzite/commit/dceaf181beb8cf15a2bca049c642254b970f7cde))
+* Add gamescope-legacy binary for older GPUs, such as Polaris. ([b98f222](https://github.com/ublue-os/bazzite/commit/b98f22216c19b7f6e6aa0a9a67a4fb8400de6121))
+* Add Minisforum V3 as an HHD supported device ([379b7e7](https://github.com/ublue-os/bazzite/commit/379b7e76e3036428097660485a8e22d9de08cbc8))
+* **deck:** Enable LAVD on Steam Deck hardware by default ([a956ea2](https://github.com/ublue-os/bazzite/commit/a956ea280743e10624c1743c93ebf791ed0ddc3c))
+* Eliminate Steam Download Speed Fix  Game Mode Startup Video ujust commands, these are now handled by the bazzite-steam wrapper. ([373a73d](https://github.com/ublue-os/bazzite/commit/373a73da8232589cb7cf57d4e0fd5764d67d5142))
+* Enable faster QAM in HHD ([9b345e0](https://github.com/ublue-os/bazzite/commit/9b345e05a81af8b5a5df517758e2aea8fc7dd4ce))
+* Enable HHD on all deck images, previous hardware script now only determines if PPD is used. ([9477fc8](https://github.com/ublue-os/bazzite/commit/9477fc8c7ee21ff2b70d8beeba70223480918719))
+
+
+### Bug Fixes
+
+* Allow more time for SD card mounting, required by some hardware. ([810b84e](https://github.com/ublue-os/bazzite/commit/810b84e706bd6267085adc224066d8b679f58722))
+* **Ally X:** disable MCU powersave ([#1396](https://github.com/ublue-os/bazzite/issues/1396)) ([bb8d401](https://github.com/ublue-os/bazzite/commit/bb8d401e0e543a0715ca2825929b3f31224dcbf7))
+* Correct control+1/control+2 input in gamescope (Thanks [@hhd-dev](https://github.com/hhd-dev)) ([6ef9d14](https://github.com/ublue-os/bazzite/commit/6ef9d14a56d33bee0e9cc39631f098c7da8f7a10))
+* **deck:** Temporarily drop mura package due to framerate pacing issue introduced by it's application ([78c10a2](https://github.com/ublue-os/bazzite/commit/78c10a2ab9a7ede3833ccc42da2201dbc2b8b885))
+* **deck:** Use bootstrap copy of Steam when starting Steam for the first time on the desktop ([0680e56](https://github.com/ublue-os/bazzite/commit/0680e56083475e38d51b60e93c4f1296f89ffd68))
+
 ## [3.6.0](https://github.com/ublue-os/bazzite/compare/v3.5.1...v3.6.0) (2024-07-17)
 
 
